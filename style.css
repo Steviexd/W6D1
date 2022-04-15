@@ -1,0 +1,88 @@
+
+:root{
+
+    --light: #ffffff;
+    --dark: #000000; 
+
+}
+
+html[data-theme="light"]{
+
+    --dark: #ffffff; 
+    --light: #000000; 
+
+}
+
+
+html[data-theme="dark"]{
+
+    --light: #ffffff; 
+    --dark: #000000; 
+
+}
+
+html, body {
+
+    background: var(--light);
+    color: var(--dark);
+
+}
+
+
+
+.light {
+    color: var(--light);
+}
+
+
+
+.dark {
+    color: var(--dark);
+}
+
+
+
+.darkback {
+    background: var(--dark);
+}
+
+
+
+.lightback {
+    background: var(--light);
+}
+
+
+
+
+.button{
+    color: var(--dark);
+    background: var(--light);
+    margin-top: 50px;
+    margin-left: 40px ;
+    padding: 12px;
+    border: 2px solid var(--dark);
+    font-weight: 15pt ;
+    width: 125px;
+    border-style: groove;
+} 
+
+
+
+.button:hover {
+
+    background: transparent;
+    background-color: var(--dark);
+    color: var(--light);
+    transition: 0.4s ease;
+}
+
+
+.stores {
+    color: var(--light)
+
+}
+
+.bar { text-align: center;}
+
+h1 {text-align: center;}
