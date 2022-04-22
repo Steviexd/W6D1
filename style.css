@@ -86,3 +86,11 @@ html, body {
 .bar { text-align: center;}
 
 h1 {text-align: center;}
+
+.squares {
+    border: 2px solid var(--dark);
+    margin: auto;
+    position: relative;
+    text-align: center;
+    width: 800px;
+}
